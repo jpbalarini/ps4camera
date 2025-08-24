@@ -307,8 +307,8 @@ int main(int argc, char **argv) {
         width = frame_desc->wWidth;
         height = frame_desc->wHeight;
         fps = 10000000 / frame_desc->dwDefaultFrameInterval;
-        // width = 1748;
-        // height = 408;
+        // width = 1724;
+        // height = 404;
         // fps = 120;
       }
 
