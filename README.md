@@ -3,7 +3,6 @@
 ## Load firmware camera
 
 ```
-cd firmware_loader
 python ./firmware_loader/ps4eye_init.py
 ```
 
@@ -19,13 +18,13 @@ Trying to use modified version of ps4_eye (library for controlling ps4 eye camer
 make ps4eye && sudo ./ps4eye_standalone
 ```
 
-Trying to use uvc directly communicating directly
+Trying to use libuvc to communicate directly
 ```
 make && sudo ./main
 ```
 
 ## Misc
-Sometimes the camera is too dark. I saw that the frame that we get from the driver is much brighter that the one I get from OpenCV
+Sometimes the camera is too dark. I saw that the frame on the preview is much brighter that the one I get from OpenCV.
 
 ## Intersting resources
 
